@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="StackPagerLayout">
+        <attr name="stackpagerlayout_leftshadow_src" format="reference"/>
+    </declare-styleable>
+
+
+</resources>

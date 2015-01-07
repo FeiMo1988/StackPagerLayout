@@ -10,4 +10,4 @@ StackPagerLayout.java:
      moveNext:后移
      smoothMoveToPosition:移动到具体位置
      
-
+Min SDK:Android 4.0 

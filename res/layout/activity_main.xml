@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <core.views.StackPagerLayout
+        android:id="@+id/stackPagerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/moveToPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="smooth to pre"/>
+
+    <Button
+        android:id="@+id/moveToNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="smooth to next" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/gotoPostionText"
+            android:layout_width="0dip"
+            android:hint="input position(Number)"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+
+         <Button
+            android:id="@+id/gotoPostionBtn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="gotoPosition" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/smoothAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="smooth add one" />
+
+</LinearLayout>
