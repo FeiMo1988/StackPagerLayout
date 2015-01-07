@@ -1,2 +1,3 @@
 # StackPagerLayout
 StackPagerLayout支持像翻书一样的边沿滑动,继承于AdapterView,实现了控件的复用功能
+hello David
